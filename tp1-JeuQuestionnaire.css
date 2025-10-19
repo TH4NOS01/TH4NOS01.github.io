@@ -1,0 +1,88 @@
+
+/*!* Mettre tous vos styles ici *!*/
+
+
+/*// "use strict"*/
+/*//*/
+/*// //Mettre votre code JS ici*/
+/*//*/
+/*// let divTitre = document.createElement("div");*/
+/*// let titre = document.createElement("h2")*/
+/*//*/
+/*// titre.textContent = "Jeux Questionnaire";*/
+/*// titre.textContent = "Bonne games";*/
+/*// divTitre.appendChild(titre);*/
+/*//*/
+/*//*/
+/*// document.getElementById("Intro").innerHTML = "Bienvenu au petit quiz realisé par deux étudiants en informatique du programme de Lilou." +*/
+/*//     "            Il va comporter 5 questions choisies au hasards dans un ensemble de questions Javascript. <br>" +*/
+/*//     "            Chaque bonne réponses vous donne un certains nombre de points." +*/
+/*//     "            À la fin de ce jeu-questionnaire, vous aurez votre résultat final ! <br>" + "<br>"+*/
+/*//     "            Bon quizz ! <br>"     ;*/
+/*//*/
+/*// let h2 = document.createElement("h2")*/
+/*// h2.innerHTML = "JEUX QUESTIOONAIRE"*/
+/*//*/
+/*//*/
+/*// // document.getElementById("Intro").textContent = "Bonne chance !";*/
+/*//*/
+/*// // function AfficherQuiz (){*/
+/*// //     let Afficher document.getElementById("AfficherQuestion")*/
+/*// //*/
+/*// // }*/
+/*//*/
+/*//*/
+/*//*/
+/*//*/
+/*// // let QUESTIONS_OBJETS = POOL_QUESTION.map(q =>*/
+/*// //     new Question(q.id, q.type, q.title, q.prompt, q.validate)*/
+/*// // );*/
+/*//*/
+/*//*/
+/*//*/
+/*//*/
+/*//*/
+/*// // ======---------====== COPIE DU CODE DE QUESTIONJSON =-----=-=*/
+/*// //Generer les questions a partir du Bouton Jouer*/
+/*//*/
+/*// function genererQuiz() {*/
+/*//     let quizQuestions = [];*/
+/*//     let questionDisponible = [...QUESTIONS_OBJETS]*/
+/*//*/
+/*//     for (let i = 0; i < 5; i++) {*/
+/*//         let p = document.createElement("p") //  Cree l'element*/
+/*//         //Choisis un Index au hasard,, aleatoir*/
+/*//         let index = Math.floor(Math.random() * questionDisponible.length); // COMPRENDRE CETTE LIGNE DE CODE*/
+/*//         //Retirer la question du pool et l<ajouter au quiz*/
+/*//         let question = questionDisponible.splice(index, 1)[0]; // COMPRENDRE CETTE LIGNE DE CODE (SPLICE)*/
+/*//         quizQuestions.push(question);*/
+/*//     }*/
+/*//     console.log("Quiz genere :", quizQuestions);*/
+/*//     afficherQuiz(quizQuestions);*/
+/*// }*/
+/*//*/
+/*//*/
+/*// //Fonction pour afficher les 5 question (par DOM)*/
+/*// function afficherQuiz(quizQuestions) {*/
+/*//     let divQuestioin = document.getElementById("AfficherLesQuestions");*/
+/*//     divQuestioin.innerHTML = ""; //Vider avant d'aficher*/
+/*//*/
+/*//*/
+/*//     //MODIFIER RENDRE CA PLUS FACILE OU LE COMPRENDRE OU LE SIIMPLIFIER!*/
+/*//     quizQuestions.forEach((q, i) => {*/
+/*//         p.textContent = `Q${i + 1}. ${q.title}`; // CHANGER CETTE LIGNE  CAR JE NE COMPREND PAS OU COMPRENDRE CETTE LIGNE DE CODE (SPLICE)*/
+/*//         //ces petite ligne sont dans pdf sem3 donc on peut utiliser*/
+/*//         divQuestioin.appendChild(p);*/
+/*//     });*/
+/*// }*/
+/*//*/
+/*//*/
+/*// // Associer le bouton JOUER*/
+/*// let boutonJouer = document.getElementById("Jouer");*/
+/*// boutonJouer.addEventListener("click", genererQuiz)*/
+
+
+
+body {
+    background-color: cadetblue;
+}
